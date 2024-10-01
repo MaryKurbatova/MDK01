@@ -1,0 +1,12 @@
+a = int(input())
+b = int(input())
+summ = 0
+if a > b:
+    interval = range(b, a)
+else:
+    interval = range(a, b)
+
+for num in interval:
+    summ += num
+print(summ)
+
