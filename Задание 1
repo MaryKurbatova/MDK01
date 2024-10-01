@@ -1,0 +1,7 @@
+a = int(input())
+l = []
+for i in range(a, a * 10 + 1):
+    if i % 2 == 0:
+        l.append(i)
+k = tuple(l)
+print(k)
